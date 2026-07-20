@@ -1,6 +1,7 @@
 ---
 name: git-attribution-fix
 description: Fix already-made commits or branches whose author email doesn't match a verified GitHub email, or which carry a Claude Code Co-Authored-By trailer, so GitHub attributes them solely to the real user. Use when existing commits show unattributed (author_login null) or wrong-author on GitHub, a PR shows Claude as co-author, or the user asks to rewrite commit authorship, strip Claude trailers, or fix attribution on a branch/PR.
+disable-model-invocation: true
 ---
 
 # Git Attribution Fix (existing commits)
