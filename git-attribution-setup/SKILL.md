@@ -1,6 +1,7 @@
 ---
 name: git-attribution-setup
 description: Configure git and Claude Code on this machine so future commits, pushes, and PRs (including ones Claude creates) attribute correctly to the user's own GitHub account, with no Claude co-author trailer. Use when setting up a new machine, onboarding a new contributor, when commits show as unattributed or wrong-author on GitHub, or the user asks to set up git/GitHub attribution, stop Claude showing as co-author going forward, or configure their email for GitHub.
+disable-model-invocation: true
 ---
 
 # Git Attribution Setup
