@@ -75,6 +75,7 @@ anyway — spotting a gap requires inverting the mapping across every ticket.
 - `git-attribution-fix`
 - `git-attribution-setup`
 - `resume-after-limit`
+- `to-learnings` — turns a grilling session into a teaching curriculum plus one brief per lesson, feeding `/teach`. Sits between the vendored `grill-with-docs` and `teach`; depends on neither being modified.
 - `epic-board-550` (lives in `~/.claude/skills`, not this repo)
 
 ## Deprecated/
